@@ -1,0 +1,50 @@
+
+.movieCard{
+    height:430px;
+    background: hsl(0deg 0% 6% / 25%);
+    box-shadow: 0 8px 32px 0 rgb(68 68 68 / 65%);
+    -webkit-backdrop-filter: blur(9.5px);
+    backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid hsl(0deg 0% 0% / 18%);
+    width: 900px;
+    color:#fff;
+    margin: 40px auto;
+    display: flex;
+    
+
+}
+.movieDetails{
+    width: 300px;
+    padding:15px;
+}
+.desc{
+    text-align: justify;
+    margin:15px auto;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.movieTitle{
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.movieimg{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rating{
+    width: 300px;
+    padding: 15px;
+    position: relative;
+}
+.rating>div{
+    margin:10px 0px;
+}
+.add{
+    text-align: center;
+}

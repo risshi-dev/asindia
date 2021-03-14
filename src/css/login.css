@@ -1,0 +1,63 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 320px;
+    margin: auto;
+    padding: 0px 20px;
+    background: hsl(0deg 0% 6% / 25%);
+    box-shadow: 0 8px 32px 0 rgb(68 68 68 / 65%);
+    -webkit-backdrop-filter: blur(9.5px);
+    backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid hsl(0deg 0% 0% / 18%);
+}
+label{
+    margin:15px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.inputBox{
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px;
+    margin:10px 0px;
+}
+
+.inputBox:focus{
+    outline: none;
+}
+.inputBox::placeholder{
+    color: rgb(39, 39, 39);
+}
+.inputSubmit{
+    margin:10px auto;
+    width: 150px;
+    height: 40px;
+    letter-spacing: 2px;
+    background: white;
+    border: none;
+    font-weight: 100;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2px;
+    color: #d53433;
+    transition: 0.5s ease;
+}
+.inputSubmit:focus{
+    outline: none;
+}
+.inputSubmit:hover{
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    background-image: linear-gradient(130deg,#ff3838 60%,#b80202);
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+}
